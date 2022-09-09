@@ -188,7 +188,7 @@ function printProductsInCart(Subtotal) {
                 <i class='bx bx-minus' ></i>
                 <span id="amount">${amount}</span>
                 <i class='bx bx-plus' ></i>
-                <i class="fa-regular fa-trash-can"></i>
+                <i class="fa-regular fa-trash-can bx-trash"></i>
             </div>
 
         </div>
