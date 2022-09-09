@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Syle css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- aweson font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Brarlyns Store</title>
+  </head>
+  <!-- body -->
+  <body>
+    <!-- nav -->
+    <nav class="e-navbar">
+      <div class="navbar-right">
+        <article class="store">
+          
+          <article class="store-text">
+            <h3> BJ STORE</h3>
+          </article>
+        </article>
+
+        <article class="navbar-txt" id="id_menu">
+          <div class="back"></div>
+
+
+        </article>
+      </div>
+
+      <div class="navbar-left">
+        <article class="control-mode">
+          <i  id="id_moon"></i>
+          <i  id="id_sun"></i>
+        </article>
+        <article class="shop-cart">
+          <i class="bx bxs-shopping-bag" id="id_icon-shop-cart"></i>
+        </article>
+
+        <div class="icon_menu" id="id_icon_menu">
+          
+        </div>
+      </div>
+    </nav>
+      <!-- cart content -->
+    <div class="content-cart" id="content-cart">
+      <div class="back-cart" id="back-content"></div>
+
+      <div class="content-cart-tittle">
+        <h1>Cart</h1>
+      </div>
+
+      <div class="content-cart-body"></div>
+
+      <div class="total">
+        <h2>Total: $<span id="id_total">0</span><span>.00</span></h2>
+        <div class="buy" id="id_buy"><p>Buy</p></div>
+      </div>
+    </div>
+
+    <main class="e-container">
+
+      </section>
+
+      <section class="products">
+        <div class="filters">
+          <p data-filter="all">Show All</p>
+          <span>|</span>
+          <p data-filter=".Nike">Nike</p>
+          <span>|</span>
+          <p data-filter=".jordan">Jordan</p>
+          <span>|</span>
+          <p data-filter=".converse">Converse</p>
+        </div>
+        <div class="content_element"></div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© ACADEMLO. All rigths reserved</p>
+    </footer>
+   <!-- JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+      integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
